@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <div class="row">
+      <div class="col-md-12">
+        <h2>TitleCase</h2>
+          <button (click)="addNew()" type="button" class="btn  btn-danger">
+            {{ReadMore?"Read More":"Read Less"}}
+          </button>
+          <ng-container *ngIf="visible">
+              <div class="bg-white shadow-sm p-3">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Data</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-group-divider" >
+                    <tr *ngFor="let mydata of data1">
+                      <td>{{mydata.id}}</td>
+                      <td>{{mydata.name}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </ng-container>
+      </div>
+  </div>
+</div>
+
