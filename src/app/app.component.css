@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 20%;
+}
+  
+.th-center{
+  text-align: center;
+}
+
+.th-left{
+  text-align: left;
+}
+
+.th-right{
+  text-align: right;
+}
+
+.mat-slide-toggle{
+margin-left: 90%;
+}
+
+.mat-form-field{
+width: 100%;
+}
